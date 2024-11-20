@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "name": "Krishna",
+      "email": "krish@example.com",
+      "phone": "09787655",
+      "id": "1"
+    },
+    {
+      "name": "venkat krishna",
+      "email": "venkat@gemail.com",
+      "phone": "098-7657890",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "sai kanakaala",
+      "email": "sai@example.com",
+      "phone": "555-555-5555"
+    },
+    {
+      "id": "4",
+      "name": "loki",
+      "email": "loko@mk.com",
+      "phone": "09876543"
+    },
+    {
+      "name": "srinu",
+      "email": "srinu@ks.com",
+      "phone": "12346908",
+      "id": "5"
+    },
+    {
+      "id": "6",
+      "name": "sailu",
+      "email": "sailu@gmail.com",
+      "phone": "9876543209"
+    },
+    {
+      "id": "4f8c",
+      "name": "fndknfkjnvn",
+      "email": "bhbchjb@gmail.com",
+      "phone": "5456441414"
+    },
+    {
+      "id": "223e",
+      "name": "ncdnvmn",
+      "email": "dnmsnvdsv@gmail.com",
+      "phone": "09618479546"
+    },
+    {
+      "id": "74fb",
+      "name": "sree raviteja degree college",
+      "email": "sailu@gmail.com",
+      "phone": "fdbmfbv "
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "id": "1f08"
+    },
+    {
+      "id": "81fd",
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "id": "d256",
+      "name": "mahesh",
+      "email": "dnmsnvdsv@gmail.com",
+      "phone": "09618479546"
+    },
+    {
+      "id": "3d77",
+      "name": "mahesh",
+      "email": "dnmsnvdsv@gmail.com",
+      "phone": "09618479546"
+    },
+    {
+      "id": "c383",
+      "name": "mahesh",
+      "email": "dnmsnvdsv@gmail.com",
+      "phone": "09618479546"
+    },
+    {
+      "id": "c676",
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "shiva",
+      "email": "shiva@gmail.com",
+      "phone": "098765612",
+      "id": "646e"
+    },
+    {
+      "name": "harsha",
+      "email": "harsha@gmail.com",
+      "phone": "9087665123",
+      "id": "7287"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "ramakrishna",
+      "content": "This is the first post"
+    },
+    {
+      "id": "2",
+      "title": "Revathi",
+      "content": "This is the second post"
+    }
+  ]
+}

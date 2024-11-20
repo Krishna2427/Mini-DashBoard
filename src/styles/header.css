@@ -1,0 +1,73 @@
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 15px; 
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd;
+}
+
+.dash-dark {
+    background-color: black;
+    color: white;
+}
+
+.dash-light {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+/* Add the orange border when dark mode is enabled */
+.border-bottom-orange {
+    border-bottom: 2px solid orange !important;
+}
+
+.header-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    flex-grow: 0; /* Prevents the title from growing */
+    text-align: center;
+    width: 100%; /* Ensure it takes up all available space */
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Adds space between buttons */
+}
+
+.add-data-button, .dark-mode-toggle {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+/* Dark Mode Button */
+.dark-mode-toggle {
+    background-color: #17a2b8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 15px;
+    }
+
+    .header-title {
+        font-size: 1.2rem;
+    }
+
+    .add-data-button, .dark-mode-toggle {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+    }
+}

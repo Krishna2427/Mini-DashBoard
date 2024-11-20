@@ -1,0 +1,153 @@
+/* Basic styling for content container */
+.content-container {
+  text-align: center;
+  padding: 20px;
+  transition: margin-left 0.3s ease, background-color 0.3s ease; /* Smooth transition for sidebar toggle */
+}
+
+/* Adjust content layout when sidebar is expanded or collapsed */
+.content-expanded {
+  margin-left: 200px; /* Sidebar width when expanded */
+}
+
+.content-collapsed {
+  margin-left: 50px; /* Sidebar width when collapsed */
+}
+
+/* Light mode styles */
+.content-light {
+  background-color: #ffffff;
+  color: black;
+}
+
+.content-light .card {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.content-light button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content-light button:hover {
+  background-color: #45a049;
+}
+
+.content-light .delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.content-light .delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Dark mode styles */
+.content-dark {
+  background-color: #121212;
+  color: white;
+}
+
+.content-dark .card {
+  background-color: #333;
+  color: white;
+  border: 1px solid #444;
+}
+
+.content-dark button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content-dark button:hover {
+  background-color: #45a049;
+}
+
+.content-dark .delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.content-dark .delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Card container for responsive layout */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Individual card styling */
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Button container to space buttons */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .card-container {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-container {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    padding: 10px;
+  }
+
+  .card-container {
+    gap: 15px;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 100%;
+  }
+
+  .content-container {
+    padding: 5px;
+  }
+}
+
+/* Update form */
+.form-control{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+}
+.save{
+  background-color: rgba(255, 77, 0, 0.795);
+}
